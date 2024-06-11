@@ -1,0 +1,39 @@
+*{
+    color: palevioletred;
+}
+
+#box{
+    background-color: rgb(55, 129, 151);
+}
+#heading{
+    color: red;
+}
+h1,h2{
+    color: green;
+}
+button{
+    background-color: burlywood;
+}
+p{
+    text-align: center; 
+}
+h1{
+    text-align: center; 
+}
+h3{
+    text-decoration:line-through double ; color: darkmagenta; text-align: center;
+}
+a{
+    text-decoration:none;
+}
+h1{
+    font-weight:800;
+}
+#box{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fo{
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: capitalize;
+}
