@@ -2,11 +2,20 @@
     font-family: 'Times New Roman', Times, serif;
 }
 h1{
+    height: 100px;
+    width:300px;
+    background-color: aquamarine;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: black;
     text-align: center;
 }
-#outer{
-    font-size: 25px;
-}
-#inner{
-    font-size: 15px;
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 50px;
+    
 }
