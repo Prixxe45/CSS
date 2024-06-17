@@ -1,0 +1,51 @@
+#box{
+    border: 10px double black;
+    height: 100px;
+    width: 200px;
+    margin:70px;
+    padding: 50px;
+    text-align: center;
+    background-color: maroon;
+    display: inline-block;
+    margin:200px;;
+}
+#BOX2{
+
+    text-align: center;
+    border: 10px double black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin:70px;
+    background-color: maroon;
+    color: aliceblue;
+    display: inline-block;
+    
+}
+#BOX2:hover{
+    background-color: magenta;
+    transition: 30000ms;
+}
+#box:hover{
+    background-color: teal;
+    transition: 30000ms ;
+}
+#bjp{
+    height: 500px;
+    width: 500px;
+     background-color: orangered;
+}
+#con{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+}
+#Aap{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(62, 62, 193);
+}
+div{ 
+    display: inline-block;
+}
+
