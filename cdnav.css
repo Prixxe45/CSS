@@ -1,0 +1,25 @@
+.nav{
+    height: 60px;
+    background-color: #000000;
+    color:#cf6e2d ; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#child{
+color: wheat;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+
+}
+span{
+    width: 80px;
+}
+button{
+    display: flex;
+    
+}

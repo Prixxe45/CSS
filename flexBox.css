@@ -3,34 +3,42 @@
     height: 700px;
   
   
-    display: flex;
-    /* justify-content: space-between; */
-   justify-content: space-evenly;
+    display: flex; /*adjust according to display size */
+    justify-content: space-between;
+   /* justify-content: space-evenly; */
     /* flex-direction: column-reverse; */
     /* flex-direction: row; */
 /* flex-direction: column; */
 /* flex-direction: row-reverse; */
 flex-wrap: wrap;
+align-items: center;
 
 }
 #one{
     background-color: teal;
-    height: 150px;
-    width: 150px;
-}
+    
+     
+     /* flex-basis: 400px;change the size of block */
+     /* flex-grow: 1; increase its size and fill all black space */
+     
+} 
 #two{
     background-color: rgb(94, 23, 36);
-    height: 150px;
-    width: 150px;
+    
+   flex-grow: 2;
+    /* flex-grow: 2; double the size in comparison to other  */
+    flex-shrink: 2000;
 
 }
 #three{
     background-color: rgb(63, 63, 219);
-    height: 150px;
-    width: 150px;
+    
 }
 #four{
     background-color: rgb(146, 177, 35);
+   
+}
+.class{
     height: 150px;
     width: 150px;
 }
