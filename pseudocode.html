@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .pseudo {
+height: 25px;
+width: 150px;
+background-color: red;
+border: black 2px solid;
+border-radius: 10px;
+transition-property: all;
+transition-duration: 70ms;
+transition-timing-function: ease-in;
+transition-delay: 0s;
+    }
+    .pseudo:hover {
+        background-color: yellow;
+        width: 160px;
+        height: 35px;
+        
+    }
+    .pseudo:active{
+        background-color: green;
+    }
+</style>
+<body>
+    <button  class="pseudo"> click me</button>
+</body>
+</html>

@@ -8,6 +8,8 @@
     background-color: maroon;
     display: inline-block;
     margin:200px;;
+    box-sizing:border-box ;
+    /* border box means padding comes under box */
 }
 #BOX2{
 

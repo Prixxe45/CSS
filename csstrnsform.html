@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 70px;
+        width: 70px;
+        border: 2px solid black;
+        background-color: plum;
+        border-radius: 10px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+       
+    }
+    .box:hover{
+        transform: rotatey(360deg);
+        transition: 5s ease-in;
+    }
+    #scale{
+        height: 70px;
+        width: 70px;
+        border: 2px solid black;
+        background-color: rgb(14, 84, 62);
+        border-radius: 10px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+        transition: 3s ease-in;
+    }
+    #scale:hover{
+        transform: scale(2);
+    }
+    #translate{
+        height: 70px;
+        width: 70px;
+        border: 2px solid black;
+        background-color: rgb(48, 8, 121);
+        border-radius: 10px;
+        position: relative;
+        top: 500px;
+        left: 500px;
+        transition: 1s ease-in;
+    
+    }
+    #translate:hover{
+        transform:translate(500px,500px);
+    }
+    #skew{
+        height: 70px;
+        width: 70px;
+        border: 2px solid black;
+        background-color: rgb(83, 179, 45);
+        border-radius: 10px;
+        position: relative;
+        top: 250px;
+        left: 250px;
+        transition: 50ms ease-in;
+    }
+    #skew:hover{
+        transform: skew(45deg);
+    }
+    </style>
+<body>
+    <div class="box">Rotate</div>
+    <div id="scale">scale</div>
+    <div id="translate">trnaslate</div>
+    <div id="skew">skew</div>
+</body>
+</html>

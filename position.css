@@ -1,0 +1,42 @@
+*{
+    margin: 0px;padding: 0px;
+    background-color: gold;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 5px;
+   
+}
+
+#box1{
+position: static;
+
+}
+#box2{
+   position: relative;
+   top: 10px;
+   left: 60px;
+}
+   
+#box3{
+   position: absolute;
+   right: 70px;
+   /* out from page so another take place of it  */
+}
+#box4{
+position: fixed;
+left: 200px;
+}
+.z{
+    background-color: darkgreen;
+    position: absolute;
+}
+#zindex1{
+    z-index: 2;
+}
+#zindex2{
+    z-index: 2;
+    left: 50px;
+}

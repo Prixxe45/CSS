@@ -2,8 +2,9 @@ div{
     background-color: royalblue;
     height: 300px;
     width: 300px;
+   font-size: 100px;
 }
-@media (max-width:500px) {
+@media screen and (min-width:302px) {
     div {
         background-color: burlywood;
         border-radius: 50%;

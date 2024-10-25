@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative unit</title>
+</head>
+<style>
+    /* persentage work on size of overall 
+    em work on text */
+    #first{
+        height: 200px; width: 200px;
+        background-color: royalblue;
+        font-size: 25px;
+    }
+    #second{
+        background-color: tomato;
+        width: 45%;
+        height: 60%;
+        font-size: 0.7em;
+    }
+
+    #third{
+        /* vw and vh work according to screen  */
+        width: 50vw;
+        height: 50vh;
+        background-color: maroon;
+    }
+</style>
+<body>
+    <div id="first">
+        first div
+        <div id="second"> second div</div>
+    </div>
+
+    <div id="third">
+   third </div>
+</body>
+</html>

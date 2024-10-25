@@ -1,5 +1,9 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
 .nav{
-    height: 60px;
+
     background-color: #000000;
     color:#cf6e2d ; 
     display: flex;
@@ -8,6 +12,8 @@
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
+    height: 60px;
+    
 }
 #child{
 color: wheat;

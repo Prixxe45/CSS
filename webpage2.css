@@ -1,0 +1,40 @@
+
+#navi{
+
+    height: 60px;
+    background-color: #0f1111;
+    padding: 0px;
+    margin: 0px;
+    color: beige;
+    text-decoration: none;
+}
+
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    color: antiquewhite;
+    margin-right: 200px;
+    text-decoration: none;
+}
+#content{
+    
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: #0f1111 solid;
+    margin: 10px;
+    display: inline-block;
+    
+
+}
+footer{
+    background-color: #0f1111;
+    color: aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop</title>
+</head>
+<body>
+    <script>
+// let num = 1;
+// while(num <= 10 ){
+//     console.log(num);
+//     num = num + 1;
+// }
+
+// let num = 0;
+// do{
+//     console.log(num);
+//     num++;
+// }while(num < 5);
+
+// for (let num = 0; num <= 10; num++){
+//     console.log(num);
+// }
+
+let num = [2,5,6,8,7,34,2,3,54,5,6];
+let sum = 0;
+for(let i = 0; i<num.length; i++){
+    sum = sum+num[i];
+}
+console.log(`sum of array ${sum}`);
+
+
+let squares = [];
+for(let i = 0; i<num.length; i++){
+    squares.push(num[i] * num[i]);
+}
+console.log(squares);
+    </script>
+</body>
+</html>
