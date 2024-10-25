@@ -1,0 +1,21 @@
+.header{
+    height: 80px;
+    background-color: #333333;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+.home{
+    background-color: gray;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+   display: flex;
+   justify-content: space-around  ;
+
+}
+.img{
+    display: flex;
+    width: 100%;
+
+}
